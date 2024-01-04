@@ -20,6 +20,8 @@ ScriptLogFileName="$FolderPath_Logs/$Internal_ScriptName-$ScriptLogFileTimeStamp
 #ScriptLogFileName="TestingLogWriting $(date +"%Y%m%d %H%M%S").txt"
 ###########################################################################
 
+echo "Logs will be written to '$ScriptLogFileName'..."
+
 if [[ ! -e "$ScriptLogFileName" ]]; then
     mkdir -p "$FolderPath_Logs"
     printf "$(date +"%Y-%m-%d %H:%M:%S") [DEBUG] : The execution of '$ScriptName' has been started. \n" >>$ScriptLogFileName
