@@ -2,7 +2,7 @@
 # Custom 'echo' function that writes in a verbose logging style.          #
 # Mitchell van Bijleveld - (https://mitchellvanbijleveld.dev/             #
 # © 2023 Mitchell van Bijleveld. 01 / 11 / 2023                           #
-##### Version 23.11.08-2312                                               #
+##### Version 24.01.05-0057                                               #
 ###########################################################################
 
 ###########################################################################
